@@ -30,3 +30,7 @@
   text-align: center;
   height: 30px;
 }
+.eye {
+  cursor: pointer;
+  color: #333;
+}
