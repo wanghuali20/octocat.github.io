@@ -1,0 +1,145 @@
+.banner {
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.banner .images {
+  position: absolute;
+  left: 0;
+  width: 4000px;
+  height: 400px;
+}
+.banner .images img {
+  width: 1000px;
+  height: 400px;
+  float: left;
+}
+@keyframes move {
+  0%,
+  22% {
+    margin-left: 0px;
+  }
+  30%,
+  52% {
+    margin-left: -1000px;
+  }
+  60%,
+  82% {
+    margin-left: -2000px;
+  }
+  90%,
+  100% {
+    margin-left: -3000px;
+  }
+}
+.main {
+  width: 90%;
+  height: 1000px;
+  box-shadow: 1px 1px 5px 5px #c0bdbd;
+  background-color: #f7f0f0;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #ec8f25;
+}
+.main img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+.main h2 {
+  text-align: center;
+  color: #ec8f25;
+}
+.main .content-1 {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.main .content-1 img {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.main .content-1 > div {
+  float: left;
+  margin-left: 100px;
+}
+.main .content-1 > div ul li {
+  margin-top: 10px;
+}
+.main .content-2 {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.main .content-2 img {
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+.main .content-2 > div {
+  width: 700px;
+  float: left;
+}
+.main .content-2 > div ul li {
+  margin-top: 10px;
+}
+.main .content-3 {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.main .content-3 img {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.main .content-3 > div {
+  float: left;
+  width: 700px;
+  margin-left: 100px;
+}
+.main .content-3 > div ul li {
+  margin-top: 10px;
+}
+.container {
+  width: 88%;
+  height: 350px;
+  box-shadow: 1px 1px 5px 5px #c0bdbd;
+  background-color: #f7f0f0;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #ec8f25;
+}
+.container div {
+  float: left;
+  width: 400px;
+  margin-left: 150px;
+}
+.container div h4 {
+  text-align: center;
+}
+.container div p {
+  font-size: 14px;
+}
+.container div ul {
+  font-size: 16px;
+}
+.container video {
+  margin-left: 100px;
+  float: left;
+  width: 600px;
+  height: 300px;
+}
